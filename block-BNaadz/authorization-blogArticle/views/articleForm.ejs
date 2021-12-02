@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Blog Form</h1>
+    </header>
+    <form method="POST" action="/articles">
+        <fieldset>
+            <div>
+                <label>Title</label>
+                <input type="text" name="title" placeholder="Enter title">
+            </div>
+            <div>
+                <label>Description</label>
+                <input type="text" name="description" placeholder="Enter description">
+            </div>
+            <div>
+                <input type="submit" value="Submit Form">
+            </div>
+            
+            <a href="/articles">
+                <button>Go to list</button>
+            </a>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
