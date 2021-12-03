@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://kit.fontawesome.com/ea78916b51.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="h1-text">Shopping Detail</h1>
+    </header>
+</body>
+<main>
+    <section>
+        <div class="box">
+            <h2 class="h2-text center">
+                <%=product.name%>
+            </h2>
+            <article>
+                <div>
+                    <div class="field-gap">
+                        <label class="detail-label display">Quantity:</label><span>
+                            <%=product.quantity%>
+                        </span>
+                    </div>
+                    <div class="field-gap">
+                        <label class="detail-label display">Price:</label><span>
+                            <%=product.price%>
+                        </span>
+                    </div>
+                    <div class="field-gap">
+                        <a href="/products/<%=product.id%>/likes"><label class="detail-label display"><i class="fas fa-thumbs-up"></i></label>
+                        </a>
+                        <span>
+                            <%=product.likes%>
+                        </span>
+                    </div>
+                    <div>
+                        <a href="/products/<%=product.id%>/edit">
+                            <button class="btn">
+                                Edit
+                            </button></a>
+                        <a href="/products/<%=product.id%>/delete">
+                            <button class="btn">
+                                Delete
+                            </button></a>
+                        <a href="/products">
+                            <button class="btn">
+                                Back to List
+                            </button></a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+</body>
+
+</html>
