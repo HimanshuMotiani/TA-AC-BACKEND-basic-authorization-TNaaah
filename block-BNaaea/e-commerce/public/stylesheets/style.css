@@ -1,0 +1,148 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+body{
+  background-color: black;
+  font-size: 1.2rem;
+}
+header{
+  padding: 1.6rem 0;
+}
+.h1-text{
+font-size: 2.8rem;
+text-align: center;
+color: white;
+}
+.box{
+  margin: 2.6rem auto;
+    /* border: 0px solid red; */
+    width: 35%;
+    box-shadow: 0rem 0rem 0.8rem 0.1rem red;
+    padding: 2rem;
+
+}
+.btn{
+  color: blue;
+  background-color: red;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 1rem 2rem;
+}
+.h2-text{
+  color: white;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+.center{
+  text-align: center;
+}
+.field-gap{
+margin: 1rem 0;
+}
+label{
+  display: block;
+  color: red;
+  font-size: 1.4rem;
+}
+.control{
+  width: 90%;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+input::-webkit-input-placeholder {
+  font-size: 16px;
+}
+.display{
+  display: inline-block;
+}
+.margin{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.btn-white{
+  color: white;
+}
+.error-text{
+  color: red;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h3-text{
+  color: white;
+}
+.detail-label{
+  color:blue ;
+}
+span{
+color: white;
+}

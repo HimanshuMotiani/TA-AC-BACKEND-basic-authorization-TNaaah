@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1-text">Welcome to Shopping page</h1>
+    </header>
+</body>
+<main>
+    <section>
+        <div class="box">
+            <h2 class="h2-text center">Add an Item</h2>
+            <form method="POST" action="/products">
+                        <div class="field-gap">
+                            <label>Name</label>
+                            <input type="text" name="name" class="control" placeholder="Enter name">
+                        </div>
+                        <div class="field-gap">
+                            <label>Quantity</label>
+                            <input type="text" name="quantity" class="control" placeholder="Enter quantity">
+                        </div>
+                        <div class="field-gap">
+                            <label>Price</label>
+                            <input type="text" name="price" class="control" placeholder="Enter price">
+                        </div>
+                        <div class="display">
+                            <input type="submit" class="btn display margin" value="Add">
+                        </div>
+            </form>
+        </div>
+        <div class="center">
+            <div class="display">
+                <a href="/products">
+                <button class="btn">
+                    Back to List
+                </button></a>
+            </div>
+        </div>
+    </section>
+</main> 
+</body>
+</html>

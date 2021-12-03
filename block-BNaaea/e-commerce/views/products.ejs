@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="flex">
+            <h1 class="h1-text">
+                E-Commerce
+            </h1>
+            <div>
+                <a href="/">
+                    <button class="btn">Home</button>
+                </a>
+                <a href="/logout">
+                    <button class="btn">Logout</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <article class="box">
+                <div>
+                    <%products.forEach(item=>{%>
+                        <div class="field-gap">
+                            <a href="/products/<%=item.id%>">
+                                <%=item.name%>
+                            </a>
+                        </div>
+                        <%})%>
+                </div>
+            </article>
+            <div class="center">
+                <a href="/products/new">
+                    <button class="btn">Add Item</button>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
